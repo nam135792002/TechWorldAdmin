@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--text-color);;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+  
+tr:hover td {background-color: coral;}
+
+.button {
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.button-1{
+    background-color: #4CAF50; /* Green */
+}
+
+.button-2{
+    background-color: red;
+}

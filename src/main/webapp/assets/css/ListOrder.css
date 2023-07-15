@@ -1,0 +1,44 @@
+.status {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.status.new {
+    background-color: #86e49d;
+    color: #006b21;
+}
+
+.status.packing {
+    background-color: #d893a3;
+    color: #b30021;
+}
+
+.status.delivered {
+    background-color: #ebc474;
+}
+
+.status.success {
+    background-color: #6fcaea;
+}
+
+.button {
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.button-1{
+    background-color: #4CAF50; /* Green */
+}
+
+.button-2{
+    background-color: red;
+}
+
